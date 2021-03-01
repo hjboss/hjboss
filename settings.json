@@ -1,0 +1,211 @@
+{
+  "editor.fontFamily": "Courier New,圓體-繁",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 12,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.detectIndentation": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderWhitespace": "boundary",
+  "editor.renderIndentGuides": true,
+  "editor.renderControlCharacters": true,
+  "editor.wordWrapColumn": 80,
+  "editor.letterSpacing": 0,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.rulers": [80, 80],
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.implementationsCodeLens.enabled": false,
+  "python.insidersChannel": "weekly",
+  "python.pythonPath": "/usr/local/Homebrew/miniconda3/bin/python3",
+  "python.linting.pycodestyleEnabled": false,
+  "python.linting.pylintEnabled": true,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "oneDarkPro.italic": false,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.markdownStyle": true,
+  "oneDarkPro.editorTheme": "nord",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "[Solarized Light]": {
+      "foreground": "#657B83",
+      "activityBar.background": "#ECE7D5",
+      "editor.foreground": "#657B83",
+      "editor.background": "#FDF6E3",
+      "editorGroupHeader.tabsBackground": "#FDF6E3",
+      "editorIndentGuide.activeBackground": "#BDC3C7",
+      "editorIndentGuide.background": "#ECE7D5",
+      "sideBar.border": "#ECE7D5",
+      "sideBar.background": "#FDF6E3",
+      "sideBarSectionHeader.background": "#ECE7D5",
+      "tab.border": "#FDF6E3",
+      "tab.inactiveForeground": "#95A5A6",
+      "tab.activeBorderTop": "#B58900",
+      "tab.activeBackground": "#ECE7D5",
+      "tab.activeForeground": "#657B83",
+      "tab.inactiveBackground": "#FDF6E3",
+      "terminal.foreground": "#95A5A6",
+      "titleBar.activeBackground": "#FDF6E3",
+      "titleBar.activeForeground": "#95A5A6"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Solarized Light]": {
+      "textMateRules": [{
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "punctuation.definition.tag.begin",
+          "punctuation.definition.tag.end"
+        ],
+        "settings": {
+          "foreground": "#95A5A6",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "keyword",
+          "markup.quote",
+          "punctuation.definition.variable",
+          "support.class",
+          "support.type"
+        ],
+        "settings": {
+          "foreground": "#859900",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.tag",
+          "entity.other.inherited-class",
+          "meta.function-call.generic",
+          "markup.heading",
+          "markup.heading.setext",
+          "support.function",
+          "variable.language",
+          "variable.other"
+        ],
+        "settings": {
+          "foreground": "#2980B9",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "constant.language",
+          "constant.numeric",
+          "entity.name.type",
+          "meta.preprocessor",
+          "source.python support.variable",
+          "support.type.primitive"
+        ],
+        "settings": {
+          "foreground": "#D35400",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "punctuation.section.embedded.begin",
+          "punctuation.section.embedded.end",
+          "punctuation.separator.continuation",
+          "string.regexp",
+          "support.function.construct"
+        ],
+        "settings": {
+          "foreground": "#E67E22",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "keyword.control.from",
+          "keyword.operator.logical",
+          "markup.bold",
+          "markup.changed",
+          "markup.italic",
+          "markup.list"
+        ],
+        "settings": {
+          "foreground": "#E74C3C",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "constant.character",
+          "constant.other",
+          "keyword.control.import",
+          "support.type.exception"
+        ],
+        "settings": {
+          "foreground": "#C0392B",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "string",
+          "markup.inline.raw"
+        ],
+        "settings": {
+          "foreground": "#16A085",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": [
+          "meta.embedded",
+          "meta.import",
+          "punctuation.definition.arguments.begin.python",
+          "punctuation.definition.arguments.end.python",
+          "punctuation.definition.array.begin.json",
+          "punctuation.definition.array.end.json",
+          "punctuation.definition.dictionary.begin.json",
+          "punctuation.definition.dictionary.end.json",
+          "punctuation.definition.list.begin.python",
+          "punctuation.definition.list.end.python",
+          "punctuation.separator.arguments.python",
+          "punctuation.separator.array.json",
+          "punctuation.separator.dictionary.key-value.json",
+          "punctuation.separator.dictionary.pair.json",
+          "source"
+        ],
+        "settings": {
+          "foreground": "#7F8C8D",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#B58900",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": "strong",
+        "settings": {
+          "foreground": "#34495E",
+          "fontStyle": ""
+        }
+      }]
+    }
+  },
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter-notebook",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "powershell.buttons.showPanelMovementButtons": true,
+  "workbench.colorTheme": "GitHub Light"
+}
