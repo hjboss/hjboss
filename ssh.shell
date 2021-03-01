@@ -6,6 +6,16 @@ switch ($args[0])
     ssh -D 7070 -o ServerAliveInterval=60 root@yangqing.me
     break
   }
+  'dev'
+  {
+    if ($args[1] -eq '-force')
+    {
+      wakeonlan 00:A5:27:E0:02:B4
+    }
+
+    ssh hjboss525150008@outlook.com@10.0.0.203
+    break
+  }
   'unix'
   {
     if ($args[1] -eq '-force')
@@ -16,14 +26,24 @@ switch ($args[0])
     ssh hjboss@10.0.0.202
     break
   }
-  'dev'
+  'data'
   {
     if ($args[1] -eq '-force')
     {
-      wakeonlan 00:A5:27:E0:02:B4
+      wakeonlan 68:05:CA:47:3D:49
     }
 
-    ssh hjboss525150008@outlook.com@10.0.0.203
+    ssh hjboss@10.0.0.201
+    break
+  }
+  'sa'
+  {
+    if ($args[1] -eq '-force')
+    {
+      wakeonlan 68:05:CA:47:3D:49
+    }
+
+    ssh hjboss525150008@outlook.com@10.0.0.200
     break
   }
   default
