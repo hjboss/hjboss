@@ -1,0 +1,33 @@
+#!/usr/local/bin/pwsh
+switch ($args[0])
+{
+  'default'
+  {
+    ssh -D 7070 -o ServerAliveInterval=60 root@yangqing.me
+    break
+  }
+  'unix'
+  {
+    if ($args[1] -eq '-force')
+    {
+      wakeonlan 94:C6:91:1E:F0:0B
+    }
+
+    ssh hjboss@10.0.0.202
+    break
+  }
+  'dev'
+  {
+    if ($args[1] -eq '-force')
+    {
+      wakeonlan 00:A5:27:E0:02:B4
+    }
+
+    ssh hjboss525150008@outlook.com@10.0.0.203
+    break
+  }
+  default
+  {
+    Write-Host 'ssh.shell [default]'
+  }
+}
