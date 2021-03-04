@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Courier New,圓體-繁",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 12,
+  "editor.fontFamily": "Courier Prime,IBM Plex Mono SemiBold,圓體-繁",
+  "editor.fontSize": 11,
+  "editor.lineHeight": 11,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.detectIndentation": true,
@@ -20,7 +20,6 @@
     "other": true
   },
   "terminal.integrated.inheritEnv": false,
-  "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontFamily": "monospace",
   "typescript.referencesCodeLens.enabled": false,
   "typescript.implementationsCodeLens.enabled": false,
@@ -37,7 +36,7 @@
   "oneDarkPro.italic": false,
   "oneDarkPro.vivid": true,
   "oneDarkPro.markdownStyle": true,
-  "oneDarkPro.editorTheme": "nord",
+  "oneDarkPro.editorTheme": "oneDarkPro",
   "workbench.startupEditor": "welcomePage",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorCustomizations": {
@@ -85,7 +84,7 @@
           "support.type"
         ],
         "settings": {
-          "foreground": "#859900",
+          "foreground": "#DFA67D",
           "fontStyle": ""
         }
       }, {
@@ -102,7 +101,7 @@
           "variable.other"
         ],
         "settings": {
-          "foreground": "#2980B9",
+          "foreground": "#4C75A3",
           "fontStyle": ""
         }
       }, {
@@ -133,6 +132,7 @@
       }, {
         "scope": [
           "keyword.control.from",
+          "keyword.control.import",
           "keyword.operator.logical",
           "markup.bold",
           "markup.changed",
@@ -147,7 +147,6 @@
         "scope": [
           "constant.character",
           "constant.other",
-          "keyword.control.import",
           "support.type.exception"
         ],
         "settings": {
@@ -160,7 +159,7 @@
           "markup.inline.raw"
         ],
         "settings": {
-          "foreground": "#16A085",
+          "foreground": "#647C64",
           "fontStyle": ""
         }
       }, {
@@ -206,6 +205,5 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "powershell.buttons.showPanelMovementButtons": true,
-  "workbench.colorTheme": "GitHub Light"
+  "workbench.colorTheme": "Solarized Light"
 }
