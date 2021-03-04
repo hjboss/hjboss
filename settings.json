@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Courier Prime,IBM Plex Mono SemiBold,圓體-繁",
+  "editor.fontFamily": "Courier Prime,IBM Plex Mono Text,圓體-繁",
   "editor.fontSize": 11,
-  "editor.lineHeight": 11,
+  "editor.lineHeight": 12,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.detectIndentation": true,
@@ -84,7 +84,7 @@
           "support.type"
         ],
         "settings": {
-          "foreground": "#DFA67D",
+          "foreground": "#D08770",
           "fontStyle": ""
         }
       }, {
@@ -101,7 +101,7 @@
           "variable.other"
         ],
         "settings": {
-          "foreground": "#4C75A3",
+          "foreground": "#81A1C1",
           "fontStyle": ""
         }
       }, {
@@ -140,7 +140,7 @@
           "markup.list"
         ],
         "settings": {
-          "foreground": "#E74C3C",
+          "foreground": "#B48EAD",
           "fontStyle": ""
         }
       }, {
@@ -159,7 +159,7 @@
           "markup.inline.raw"
         ],
         "settings": {
-          "foreground": "#647C64",
+          "foreground": "#A3BE8C",
           "fontStyle": ""
         }
       }, {
@@ -187,13 +187,13 @@
       }, {
         "scope": "variable.parameter",
         "settings": {
-          "foreground": "#B58900",
+          "foreground": "#EBCB8B",
           "fontStyle": ""
         }
       }, {
         "scope": "strong",
         "settings": {
-          "foreground": "#34495E",
+          "foreground": "#3B4252",
           "fontStyle": ""
         }
       }]
