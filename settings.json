@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Courier Prime,IBM Plex Mono Text,圓體-繁",
+  "editor.fontFamily": "Courier Prime,Cascadia Code SemiBold,圓體-繁",
   "editor.fontSize": 11,
   "editor.lineHeight": 12,
   "editor.fontWeight": "normal",
@@ -80,8 +80,7 @@
           "keyword",
           "markup.quote",
           "punctuation.definition.variable",
-          "support.class",
-          "support.type"
+          "support.class"
         ],
         "settings": {
           "foreground": "#D08770",
@@ -114,7 +113,7 @@
           "support.type.primitive"
         ],
         "settings": {
-          "foreground": "#D35400",
+          "foreground": "#CA5010",
           "fontStyle": ""
         }
       }, {
@@ -126,7 +125,7 @@
           "support.function.construct"
         ],
         "settings": {
-          "foreground": "#E67E22",
+          "foreground": "#BF616A",
           "fontStyle": ""
         }
       }, {
@@ -181,7 +180,13 @@
           "source"
         ],
         "settings": {
-          "foreground": "#7F8C8D",
+          "foreground": "#929AA9",
+          "fontStyle": ""
+        }
+      }, {
+        "scope": "support.type",
+        "settings": {
+          "foreground": "#8FBCBB",
           "fontStyle": ""
         }
       }, {
