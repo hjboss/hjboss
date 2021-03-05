@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Courier Prime,Cascadia Code SemiBold,圓體-繁",
+  "editor.fontFamily": "Courier Prime,Cascadia Code SemiBold,蘭亭黑-繁",
   "editor.fontSize": 11,
-  "editor.lineHeight": 12,
+  "editor.lineHeight": 11,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.detectIndentation": true,
@@ -113,7 +113,7 @@
           "support.type.primitive"
         ],
         "settings": {
-          "foreground": "#CA5010",
+          "foreground": "#E67E22",
           "fontStyle": ""
         }
       }, {
