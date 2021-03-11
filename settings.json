@@ -1,7 +1,7 @@
 {
-  "editor.fontFamily": "Anonymous Pro,IBM Plex Mono SemiBold,魏碑-繁",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 12,
+  "editor.fontFamily": "Courier New,IBM Plex Mono SemiBold,魏碑-繁",
+  "editor.fontSize": 10,
+  "editor.lineHeight": 10,
   "editor.fontWeight": "bold",
   "editor.fontLigatures": true,
   "editor.detectIndentation": true,
@@ -32,6 +32,10 @@
   },
   "[rust]": {
     "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.fontSize": 12,
+    "editor.lineHeight": 12
   },
   "oneDarkPro.italic": false,
   "oneDarkPro.vivid": true,
@@ -101,6 +105,7 @@
         ],
         "settings": {
           "foreground": "#81A1C1",
+          //"foreground": "#5E81AC",
           "fontStyle": ""
         }
       }, {
