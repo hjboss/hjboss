@@ -1,9 +1,9 @@
 {
-  "editor.fontFamily": "Courier New,IBM Plex Mono SemiBold,魏碑-繁",
+  "editor.fontFamily": "Cascadia Code SemiBold0,IBM Plex Mono SemiBold,圓體-繁",
   "editor.fontSize": 10,
   "editor.lineHeight": 10,
-  "editor.fontWeight": "bold",
-  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
   "editor.detectIndentation": true,
   "editor.wordWrap": "wordWrapColumn",
   "editor.renderWhitespace": "boundary",
@@ -28,7 +28,7 @@
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": true,
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 2
   },
   "[rust]": {
     "editor.tabSize": 4
@@ -217,5 +217,8 @@
       "filenamePattern": "*.ipynb"
     }
   ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Solarized Light"
 }
