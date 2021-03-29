@@ -1,8 +1,7 @@
 {
-  "editor.fontFamily": "Cascadia Code SemiBold0,IBM Plex Mono SemiBold,圓體-繁",
+  "editor.fontFamily": "Space Mono,IBM Plex Mono SemiBold,圓體-繁",
   "editor.fontSize": 10,
   "editor.lineHeight": 10,
-  "editor.fontWeight": "normal",
   "editor.fontLigatures": false,
   "editor.detectIndentation": true,
   "editor.wordWrap": "wordWrapColumn",
@@ -33,7 +32,12 @@
   "[rust]": {
     "editor.tabSize": 4
   },
+  "[html]": {
+    "editor.wordWrapColumn": 120,
+    "editor.rulers": [120, 120],
+  },
   "[markdown]": {
+    "editor.fontFamily": "IBM Plex Mono Thin",
     "editor.fontSize": 12,
     "editor.lineHeight": 12
   },
@@ -76,8 +80,7 @@
           "punctuation.definition.tag.end"
         ],
         "settings": {
-          "foreground": "#95A5A6",
-          "fontStyle": ""
+          "foreground": "#95A5A6"
         }
       }, {
         "scope": [
@@ -87,8 +90,7 @@
           "support.class"
         ],
         "settings": {
-          "foreground": "#D08770",
-          "fontStyle": ""
+          "foreground": "#D08770"
         }
       }, {
         "scope": [
@@ -104,9 +106,7 @@
           "variable.other"
         ],
         "settings": {
-          "foreground": "#81A1C1",
-          //"foreground": "#5E81AC",
-          "fontStyle": ""
+          "foreground": "#81A1C1"
         }
       }, {
         "scope": [
@@ -116,8 +116,7 @@
           "entity.name.type"
         ],
         "settings": {
-          "foreground": "#B48EAD",
-          "fontStyle": ""
+          "foreground": "#B48EAD"
         }
       }, {
         "scope": [
@@ -128,8 +127,7 @@
           "string.regexp"
         ],
         "settings": {
-          "foreground": "#BF616A",
-          "fontStyle": ""
+          "foreground": "#BF616A"
         }
       }, {
         "scope": [
@@ -141,7 +139,7 @@
         ],
         "settings": {
           "foreground": "#88C0D0",
-          "fontStyle": ""
+          
         }
       }, {
         "scope": [
@@ -150,8 +148,7 @@
           "constant.other"
         ],
         "settings": {
-          "foreground": "#C0392B",
-          "fontStyle": ""
+          "foreground": "#C0392B"
         }
       }, {
         "scope": [
@@ -159,8 +156,7 @@
           "markup.inline.raw"
         ],
         "settings": {
-          "foreground": "#A3BE8C",
-          "fontStyle": ""
+          "foreground": "#A3BE8C"
         }
       }, {
         "scope": [
@@ -181,8 +177,7 @@
           "source"
         ],
         "settings": {
-          "foreground": "#929AA9",
-          "fontStyle": ""
+          "foreground": "#929AA9"
         }
       }, {
         "scope": [
@@ -193,20 +188,17 @@
           "support.type"
         ],
         "settings": {
-          "foreground": "#8FBCBB",
-          "fontStyle": ""
+          "foreground": "#8FBCBB"
         }
       }, {
         "scope": "variable.parameter",
         "settings": {
-          "foreground": "#EBCB8B",
-          "fontStyle": ""
+          "foreground": "#EBCB8B"
         }
       }, {
         "scope": "strong",
         "settings": {
-          "foreground": "#4C566A",
-          "fontStyle": ""
+          "foreground": "#4C566A"
         }
       }]
     }
