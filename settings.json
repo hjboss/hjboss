@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "CascadiaCode-SemiBold,IBM Plex Mono SemiBold,圓體-繁",
+  "editor.fontFamily": "IBM Plex Mono SemiBold,圓體-繁",
   "editor.fontSize": 10,
   "editor.lineHeight": 10,
   "editor.fontWeight": "normal",
@@ -76,24 +76,13 @@
     "[Solarized Light]": {
       "textMateRules": [{
         "scope": [
-          "comment",
-          "entity.other.attribute-name",
-          "punctuation.definition.tag.begin",
-          "punctuation.definition.tag.end"
-        ],
-        "settings": {
-          "foreground": "#95A5A6",
-          "fontStyle": ""
-        }
-      }, {
-        "scope": [
           "keyword",
           "markup.quote",
           "punctuation.definition.variable",
           "support.class"
         ],
         "settings": {
-          "foreground": "#d77f66",
+          "foreground": "#da9e8c",
           "fontStyle": ""
         }
       }, {
@@ -101,14 +90,16 @@
           "entity.name.class",
           "entity.name.function",
           "entity.name.tag",
+          "entity.name.namespace",
           "entity.other.inherited-class",
           "meta.function-call.generic",
-          "entity.name.namespace",
           "markup.heading",
           "markup.heading.setext",
           "support.function",
           "variable.language",
-          "variable.other"
+          "variable.other",
+          "punctuation.definition.tag.begin",
+          "punctuation.definition.tag.end"
         ],
         "settings": {
           "foreground": "#8ba3c7",
@@ -170,8 +161,10 @@
         }
       }, {
         "scope": [
+          "comment",
           "meta.import",
           "meta.embedded",
+          "entity.other.attribute-name",
           "punctuation.definition.arguments.begin.python",
           "punctuation.definition.arguments.end.python",
           "punctuation.definition.array.begin.json",
@@ -209,9 +202,9 @@
           "fontStyle": ""
         }
       }, {
-        "scope": "strong",
+        "scope": "storage",
         "settings": {
-          "foreground": "#5c4f55",
+          "foreground": "#ac9f8a",
           "fontStyle": ""
         }
       }]
