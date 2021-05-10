@@ -37,15 +37,15 @@ $cmd 00015 check-state
 # x.x.x.x must be the IP address of your ISP.s DNS
 # Dup these lines if your ISP has more than one DNS server
 # Get the IP addresses from /etc/resolv.conf file
-#$cmd 00110 allow tcp from any to x.x.x.x 53 out via $pif setup keep-state
-#$cmd 00111 allow udp from any to x.x.x.x 53 out via $pif keep-state
+$cmd 00110 allow tcp from any to 10.0.0.1 53 out via $pif setup keep-state
+$cmd 00111 allow udp from any to 10.0.0.1 53 out via $pif keep-state
 
 # Allow out access to my ISP's DHCP server for cable/DSL configurations.
 # This rule is not needed for .user ppp. connection to the public Internet.
 # so you can delete this whole group.
 # Use the following rule and check log for IP address.
 # Then put IP address in commented out rule & delete first rule
-#$cmd 00120 allow log udp from any to any 67 out via $pif keep-state
+$cmd 00120 allow log udp from any to any 67 out via $pif keep-state
 #$cmd 00120 allow udp from any to x.x.x.x 67 out via $pif keep-state
 
 # Allow out non-secure standard www function
@@ -90,7 +90,7 @@ $cmd 00299 deny log all from any to any out via $pif
 # Deny all inbound traffic from non-routable reserved address spaces
 $cmd 00300 deny all from 192.168.0.0/16  to any in via $pif #RFC 1918 private IP
 $cmd 00301 deny all from 172.16.0.0/12   to any in via $pif #RFC 1918 private IP
-$cmd 00302 deny all from 10.0.0.0/8      to any in via $pif #RFC 1918 private IP
+#$cmd 00302 deny all from 10.0.0.0/8     to any in via $pif #RFC 1918 private IP
 $cmd 00303 deny all from 127.0.0.0/8     to any in via $pif #loopback
 $cmd 00304 deny all from 0.0.0.0/8       to any in via $pif #loopback
 $cmd 00305 deny all from 169.254.0.0/16  to any in via $pif #DHCP auto-config
