@@ -52,6 +52,9 @@ Mkfile.old
 dkms.conf
 
 Icon?
+desktop.ini
 .DS_Store
+.vscode
 .grunt
+.idea
 
